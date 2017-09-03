@@ -1,0 +1,22 @@
+* {
+  font-family: serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.service {
+  background: #eee;
+  border: 1px solid grey;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  float: left;
+}
+.service h2,
+.service p {
+  text-align: center;
+  margin: 10px;
+}
